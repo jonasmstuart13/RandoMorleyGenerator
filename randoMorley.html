@@ -1,1 +1,36 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Random Number Generator</title>
+    <link rel="stylesheet" type="text/css" href="RandoMorley.css" />
+  </head>
+  <body>
+    <div id="defineMaxMin">
+      <form>
+        <span>
+          <p>Min:</p>
+          <input type="number" id="min" />
+        </span>
+        <span>
+          <p>Max:</p>
+          <input type="number" id="max" />
+        </span>
+      </form>
+    </div>
+    <div id="generateNumber">
+      <button id="genNumBtn">Generate Number</button>
+      <textarea id="genNumberResult">number...</textarea>
+    </div>
+    <div id="generateList">
+      <p>How many numbers do you wish to generate at a time?</p>
+      <input id="iterationInput" type="number" />
+      <button id="genNumberListBtn">Generate List</button>
+      <button id="refreshListBtn">Refresh List</button>
+      <textarea id="numberListResult">number...</textarea>
+    </div>
+  </body>
+  <script src="RandoMorley.js"></script>
+</html>
